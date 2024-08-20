@@ -1,14 +1,11 @@
-# Implement RedisCluster by HelmChart on K8S
-This repository contains a Helm chart for deploying a Redis cluster.
-
-## Installation
+#This repository contains a Helm chart for deploying a Redis cluster.
 
 ### Prerequisites
 
-- Helm 3.x installed on your local machine
+- Helm 3.x on your local
 - A running Kubernetes cluster
 
-### Usage
+### Installation
 
 1. Clone this repository:
     ```bash
@@ -41,8 +38,7 @@ This repository contains a Helm chart for deploying a Redis cluster.
     helm uninstall redis-cluster
     ```
 
-## Contributing
-
+## Contribution
 Feel free to submit issues and pull requests to help improve this Helm chart.
 
 
